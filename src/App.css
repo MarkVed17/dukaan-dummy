@@ -12,6 +12,11 @@ a {
 
 button {
   font-family: inherit;
+  cursor: pointer;
+}
+
+img {
+  cursor: pointer;
 }
 
 .App {
