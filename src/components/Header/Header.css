@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  height: 20rem;
+  padding: 1.5rem 10.5rem 0 10.5rem;
+  background-color: #146eb4;
+}
+
+.header__actions {
+  display: flex;
+  gap: 2rem;
+  height: fit-content;
+  margin-left: auto;
+}
+
+.header__actions > button {
+  cursor: pointer;
+}
+
+.header__link {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.header__button {
+  padding: 0.75rem 1.5rem;
+  color: #146eb4;
+  font-weight: 500;
+}
