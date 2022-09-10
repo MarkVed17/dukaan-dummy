@@ -9,7 +9,7 @@
   padding-bottom: 2.5rem;
   margin: 4rem 10.5rem 0rem 10.5rem;
   gap: 8.25rem;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.2);
 }
 
 .footer__actions {
