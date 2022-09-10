@@ -5,6 +5,10 @@
   background-color: #146eb4;
 }
 
+.header__logo {
+  height: fit-content;
+}
+
 .header__actions {
   display: flex;
   gap: 2rem;

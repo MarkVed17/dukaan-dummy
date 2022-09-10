@@ -3,6 +3,10 @@
   background-color: #1a181e;
 }
 
+.footer__logo {
+  height: fit-content;
+}
+
 .footer__main {
   display: flex;
   justify-content: space-between;
