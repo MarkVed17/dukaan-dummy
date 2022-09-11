@@ -1,5 +1,11 @@
 .slogan-maker {
+  position: relative;
+  /* top: -12rem; */
   padding: 4rem 12rem 7rem 12rem;
+  margin: 0 10rem;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 8px rgba(26, 24, 30, 0.06);
 }
 
 .slogan-maker__input-area {
@@ -108,26 +114,25 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .slogan-maker__slogans {
-  display: flex;
+  /* display: flex; */
   /* flex-direction: column;  */
-  justify-content: space-between;
+  /* justify-content: space-between;
   flex-wrap: wrap;
-  row-gap: 1.25rem;
+  gap: 1.25rem; */
+
   /* column-gap: 2rem; */
   /* width: 54rem; */
-  /* display: grid;
-  grid-auto-flow: column;
+  display: grid;
   grid-gap: 20px;
-  grid-template-rows: 3.75rem 7.5rem 15rem;
-  grid-template-columns: 27.5rem 55rem 82.5rem; */
-  /* padding: 10px; */
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .slogan-maker__slogan {
   display: flex;
+  flex-basis: 50%;
   align-items: center;
-  width: 22rem;
-  height: 3.75rem;
+  /* width: 22rem; */
+  /* height: 3.75rem; */
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
   background-color: #f2f2f2;
