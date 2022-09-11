@@ -1,6 +1,4 @@
 import "./Footer.css";
-// import img from "../../assets/images/logo/white.svg";
-// import flagIcon from "../../assets/images/icons/flag.svg";
 
 const Footer = () => {
   return (
