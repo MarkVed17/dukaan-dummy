@@ -43,7 +43,7 @@ const StepsBanner = () => {
             alt="standout"
             className="step-banner__step-main__icon"
           />
-          <span className="step-banner__step-main__title">Search</span>
+          <span className="step-banner__step-main__title">Stand out</span>
         </div>
         <p className="steps-banner__step-main__desc">
           Congrats on your new slogan. It's time to win the world!
