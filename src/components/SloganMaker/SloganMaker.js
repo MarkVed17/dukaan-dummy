@@ -1,7 +1,10 @@
 import "./SloganMaker.css";
 import toast from "react-hot-toast";
+import data from "../../data/data.json";
 
 const SloganMaker = () => {
+  const { slogans } = data;
+
   const copyToClipboard = (text) => {
     navigator.clipboard.writeText(text);
     toast("Copied!");
@@ -41,114 +44,15 @@ const SloganMaker = () => {
           <button className="slogan-maker__download-btn">Download all</button>
         </div>
         <div className="slogan-maker__slogans">
-          <div
-            className="slogan-maker__slogan"
-            onClick={(e) => copyToClipboard(e.target.innerText)}
-          >
-            There is no Sore it will Not Heal, No cool it will not Subdue.
-          </div>
-          <div
-            className="slogan-maker__slogan"
-            onClick={(e) => copyToClipboard(e.target.innerText)}
-          >
-            coziness building for tomorrow
-          </div>
-          <div
-            className="slogan-maker__slogan"
-            onClick={(e) => copyToClipboard(e.target.innerText)}
-          >
-            There is no Sore it will Not Heal, No cool it will not Subdue.
-          </div>
-          <div
-            className="slogan-maker__slogan"
-            onClick={(e) => copyToClipboard(e.target.innerText)}
-          >
-            coziness building for tomorrow
-          </div>
-          <div
-            className="slogan-maker__slogan"
-            onClick={(e) => copyToClipboard(e.target.innerText)}
-          >
-            There is no Sore it will Not Heal, No cool it will not Subdue.
-          </div>
-          <div
-            className="slogan-maker__slogan"
-            onClick={(e) => copyToClipboard(e.target.innerText)}
-          >
-            coziness building for tomorrow
-          </div>
-          <div
-            className="slogan-maker__slogan"
-            onClick={(e) => copyToClipboard(e.target.innerText)}
-          >
-            There is no Sore it will Not Heal, No cool it will not Subdue.
-          </div>
-          <div
-            className="slogan-maker__slogan"
-            onClick={(e) => copyToClipboard(e.target.innerText)}
-          >
-            coziness building for tomorrow
-          </div>
-          <div
-            className="slogan-maker__slogan"
-            onClick={(e) => copyToClipboard(e.target.innerText)}
-          >
-            There is no Sore it will Not Heal, No cool it will not Subdue.
-          </div>
-          <div
-            className="slogan-maker__slogan"
-            onClick={(e) => copyToClipboard(e.target.innerText)}
-          >
-            coziness building for tomorrow
-          </div>
-          <div
-            className="slogan-maker__slogan"
-            onClick={(e) => copyToClipboard(e.target.innerText)}
-          >
-            There is no Sore it will Not Heal, No cool it will not Subdue.
-          </div>
-          <div
-            className="slogan-maker__slogan"
-            onClick={(e) => copyToClipboard(e.target.innerText)}
-          >
-            coziness building for tomorrow
-          </div>
-          <div
-            className="slogan-maker__slogan"
-            onClick={(e) => copyToClipboard(e.target.innerText)}
-          >
-            There is no Sore it will Not Heal, No cool it will not Subdue.
-          </div>
-          <div
-            className="slogan-maker__slogan"
-            onClick={(e) => copyToClipboard(e.target.innerText)}
-          >
-            coziness building for tomorrow
-          </div>
-          <div
-            className="slogan-maker__slogan"
-            onClick={(e) => copyToClipboard(e.target.innerText)}
-          >
-            There is no Sore it will Not Heal, No cool it will not Subdue.
-          </div>
-          <div
-            className="slogan-maker__slogan"
-            onClick={(e) => copyToClipboard(e.target.innerText)}
-          >
-            coziness building for tomorrow
-          </div>
-          <div
-            className="slogan-maker__slogan"
-            onClick={(e) => copyToClipboard(e.target.innerText)}
-          >
-            There is no Sore it will Not Heal, No cool it will not Subdue.
-          </div>
-          <div
-            className="slogan-maker__slogan"
-            onClick={(e) => copyToClipboard(e.target.innerText)}
-          >
-            coziness building for tomorrow
-          </div>
+          {slogans.map(({ id, text }) => (
+            <div
+              key={id}
+              className="slogan-maker__slogan"
+              onClick={(e) => copyToClipboard(e.target.innerText)}
+            >
+              {text}
+            </div>
+          ))}
         </div>
       </div>
     </section>
