@@ -1,8 +1,8 @@
 import "./SuggestionsBanner.css";
-import policyImg from "../../../assets/images/banners/privacy-policy-generator.svg";
-import termsImg from "../../../assets/images/banners/tems-conditions-generator.svg";
-import domainImg from "../../../assets/images/banners/domain-name-generator.svg";
-import invoiceImg from "../../../assets/images/banners/invoice-generator.svg";
+// import policyImg from "/public/assets/images/banners/privacy-policy-generator.svg";
+// import termsImg from "../../../assets/images/banners/tems-conditions-generator.svg";
+// import domainImg from "../../../assets/images/banners/domain-name-generator.svg";
+// import invoiceImg from "../../../assets/images/banners/invoice-generator.svg";
 
 const SuggestionsBanner = () => {
   return (
@@ -10,7 +10,7 @@ const SuggestionsBanner = () => {
       <div className="suggestions-banner__suggestion">
         <div className="suggestion-banner__suggestion-media">
           <img
-            src={policyImg}
+            src="/assets/images/banners/privacy-policy-generator.svg"
             alt="privacy policy"
             className="suggestions-banner__suggestion-img"
           />
@@ -25,7 +25,7 @@ const SuggestionsBanner = () => {
       </div>
       <div className="suggestions-banner__suggestion">
         <img
-          src={termsImg}
+          src="/assets/images/banners/terms-conditions-generator.svg"
           alt="terms-conditions"
           className="suggestions-banner__suggestion-img"
         />
@@ -39,7 +39,7 @@ const SuggestionsBanner = () => {
       </div>
       <div className="suggestions-banner__suggestion">
         <img
-          src={domainImg}
+          src="/assets/images/banners/domain-name-generator.svg"
           alt="domain-name"
           className="suggestions-banner__suggestion-img"
         />
@@ -53,7 +53,7 @@ const SuggestionsBanner = () => {
       </div>
       <div className="suggestions-banner__suggestion">
         <img
-          src={invoiceImg}
+          src="/assets/images/banners/invoice-generator.svg"
           alt="invoice"
           className="suggestions-banner__suggestion-img"
         />

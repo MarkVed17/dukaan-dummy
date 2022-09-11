@@ -1,13 +1,13 @@
 import "./Footer.css";
-import img from "../../assets/images/logo/white.svg";
-import flagIcon from "../../assets/images/icons/flag.svg";
+// import img from "../../assets/images/logo/white.svg";
+// import flagIcon from "../../assets/images/icons/flag.svg";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__main">
         <div className="footer__logo">
-          <img src={img} alt="dukaan" />
+          <img src="/assets/images/logo/white.svg" alt="dukaan" />
         </div>
         <div className="footer__actions">
           <div className="footer__group">
@@ -41,7 +41,7 @@ const Footer = () => {
         <span>Dukaan 2020, All rights reserved.</span>
         <span className="footer__credits">
           <span>Made in</span>
-          <img src={flagIcon} alt="India" />
+          <img src="/assets/images/icons/flag.svg" alt="India" />
         </span>
       </div>
     </footer>

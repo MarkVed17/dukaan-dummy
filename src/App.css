@@ -27,18 +27,18 @@ img {
 
 @font-face {
   font-family: "Galano Grotesque";
-  src: url("./assets/fonts/galanogrotesque-regular.otf") format("opentype");
+  src: url("../public/assets/fonts/galanogrotesque-regular.otf") format("opentype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Galano Grotesque";
-  src: url("./assets/fonts/galanogrotesque-medium.otf") format("opentype");
+  src: url("../public/assets/fonts/galanogrotesque-medium.otf") format("opentype");
   font-weight: 500;
 }
 
 @font-face {
   font-family: "Galano Grotesque";
-  src: url("./assets/fonts/galanogrotesque-semibold.otf") format("opentype");
+  src: url("../public/assets/fonts/galanogrotesque-semibold.otf") format("opentype");
   font-weight: 600;
 }

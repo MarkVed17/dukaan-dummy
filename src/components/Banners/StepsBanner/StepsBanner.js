@@ -1,7 +1,7 @@
 import "./StepsBanner.css";
-import searchIcon from "../../../assets/images/icons/search.svg";
-import selectIcon from "../../../assets/images/icons/select.svg";
-import standoutIcon from "../../../assets/images/icons/standout.svg";
+// import searchIcon from "/public/assets/images/icons/search.svg";
+// import selectIcon from "../../../assets/images/icons/select.svg";
+// import standoutIcon from "../../../assets/images/icons/standout.svg";
 
 const StepsBanner = () => {
   return (
@@ -9,7 +9,7 @@ const StepsBanner = () => {
       <div className="steps-banner__step">
         <div className="steps-banner__step-main">
           <img
-            src={searchIcon}
+            src="/assets/images/icons/search.svg"
             alt="search"
             className="step-banner__step-main__icon"
           />
@@ -24,7 +24,7 @@ const StepsBanner = () => {
       <div className="steps-banner__step">
         <div className="steps-banner__step-main">
           <img
-            src={selectIcon}
+            src="/assets/images/icons/select.svg"
             alt="select"
             className="step-banner__step-main__icon"
           />
@@ -39,7 +39,7 @@ const StepsBanner = () => {
       <div className="steps-banner__step">
         <div className="steps-banner__step-main">
           <img
-            src={standoutIcon}
+            src="/assets/images/icons/standout.svg"
             alt="standout"
             className="step-banner__step-main__icon"
           />
