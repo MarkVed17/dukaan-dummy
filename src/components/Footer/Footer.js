@@ -1,5 +1,6 @@
 import "./Footer.css";
 import img from "../../assets/images/logo/white.svg";
+import flagIcon from "../../assets/images/icons/flag.svg";
 
 const Footer = () => {
   return (
@@ -38,7 +39,10 @@ const Footer = () => {
       <hr />
       <div className="footer__copyright">
         <span>Dukaan 2020, All rights reserved.</span>
-        <span>Made in India</span>
+        <span className="footer__credits">
+          <span>Made in</span>
+          <img src={flagIcon} alt="India" />
+        </span>
       </div>
     </footer>
   );

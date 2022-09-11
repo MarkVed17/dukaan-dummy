@@ -55,3 +55,9 @@
   padding: 1.5rem 10.5rem 1.5rem 10.5rem;
   color: #ffffff;
 }
+
+.footer__credits {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
