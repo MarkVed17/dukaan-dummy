@@ -1,8 +1,21 @@
 .suggestions__banner {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 5rem 10rem;
+}
+
+.suggestions__banner-title {
+  font-weight: 600;
+  font-size: 2.25rem;
+  line-height: 2.625rem;
+  color: #1a181e;
+}
+
+.suggestions__banner-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  padding: 5rem 10rem;
 }
 
 .suggestions-banner__suggestion {
@@ -18,8 +31,6 @@
 }
 
 .suggestions-banner__suggestion-img {
-  /* width: 22rem;
-  height: 12.5rem; */
   width: 100%;
 }
 
