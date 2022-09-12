@@ -9,8 +9,6 @@ const SloganMaker = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [slogansPerPage] = useState(18);
 
-  console.log(slogans.length);
-
   // Get current slogans
   const indexOfLastSlogan = currentPage * slogansPerPage;
   const indexOfFirstSlogan = indexOfLastSlogan - slogansPerPage;

@@ -12,10 +12,9 @@ const Pagination = ({
     pageNumbers.push(i);
   }
 
-  console.log(pageNumbers);
-
   return (
     <nav className="pagination-container">
+      <div></div>
       <ul className="pagination">
         {pageNumbers.map((number) => (
           <li

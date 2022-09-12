@@ -42,7 +42,7 @@
 .slogan-maker__action-input {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 8px;
 }
 
 .slogan-maker__label {
@@ -57,7 +57,7 @@
   height: 3rem;
   padding: 0.75rem 1rem;
   border: 1px solid #d9d9d9;
-  border-radius: 0.25rem;
+  border-radius: 4px;
   font-family: "Galano Grotesque";
   font-size: 1rem;
 }
@@ -75,9 +75,9 @@ input[type="search"]::-webkit-search-cancel-button {
   width: fit-content;
   font-size: 1.125rem;
   padding: 0.75rem 1.5rem;
-  gap: 0.625rem;
+  gap: 10px;
   background-color: #146eb4;
-  border-radius: 0.25rem;
+  border-radius: 4px;
   color: #ffffff;
 }
 
@@ -107,7 +107,7 @@ input[type="search"]::-webkit-search-cancel-button {
   padding: 0.5rem 1.5rem;
   font-size: 0.875rem;
   border: 1px solid #146eb4;
-  border-radius: 0.25rem;
+  border-radius: 4px;
   background-color: #ffffff;
   color: #146eb4;
 }
@@ -118,16 +118,8 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .slogan-maker__slogans {
-  /* display: flex; */
-  /* flex-direction: column;  */
-  /* justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 1.25rem; */
-
-  /* column-gap: 2rem; */
-  /* width: 54rem; */
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 1.25rem;
   grid-template-columns: repeat(2, 1fr);
 }
 
@@ -135,10 +127,8 @@ input[type="search"]::-webkit-search-cancel-button {
   display: flex;
   flex-basis: 50%;
   align-items: center;
-  /* width: 22rem; */
-  /* height: 3.75rem; */
   padding: 0.5rem 1rem;
-  border-radius: 0.25rem;
+  border-radius: 4px;
   background-color: #f2f2f2;
   cursor: pointer;
 }

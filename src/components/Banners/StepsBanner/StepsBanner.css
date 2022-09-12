@@ -1,6 +1,5 @@
 .steps__banner {
   display: flex;
-  /* justify-content: space-between; */
   gap: 1.5rem;
   padding: 4rem 10rem;
   background-color: rgb(20, 111, 180, 0.05);
